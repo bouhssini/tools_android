@@ -1,0 +1,10 @@
+set PATH=%PATH%;C:\Users\youssef\toolsSDKandroid\android-ndk-r9d
+cd <projet>
+ndk-build
+
+
+
+
+
+include $(BUILD_SHARED_LIBRARY)
+include $(BUILD_STATIC_LIBRARY)
